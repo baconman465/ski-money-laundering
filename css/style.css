@@ -1,0 +1,68 @@
+:root{
+    --greenBlue:#1068A7;
+    --polyBlue :#054D8C;
+    --Verdigris :#00BDBD;
+    --TimberWolf :#E5DADA;
+    --PineGreen :#19756B;
+    --STUPID :#5CB3A9;
+    --Cobalt :#1642A2;
+    --Charcoal :#2E3F45;
+}
+
+
+/* navbar */
+.navbar{
+    background: #323232;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.navbar__container{
+display: flex;
+justify-content: space-between;
+height: 80px;
+z-index: 1;
+width: 100%;
+max-width: 1300px;
+margin: 0 auto;
+padding: 0 50px;
+}
+#navbar__logo{
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 2rem;
+    background-color: #0ff;
+    background-image: linear-gradient(TO TOP, var() 0%,#4852ac 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+}
+.navbar__menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    width: 50%;
+    list-style: none;
+}
+    .navbar_item{
+    height: 80px;
+}
+.navbar__links{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+    height: 100%;
+    transition: all .3s ease;
+
+}

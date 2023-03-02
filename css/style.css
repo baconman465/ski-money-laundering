@@ -136,7 +136,16 @@ margin-top: 2rem;
     align-items: center;
     color:#a8a6b6
 }
+.employment-title {
+text-align: center;
 
+}
+.employment-title h1{
+    font-size: 8rem;
+}
+.employment-title h2{
+    font-size: 4rem;
+}
 /* Responsive*/
 @media screen and (max-width: 900px) {
     .Nav-item-container {
@@ -175,8 +184,14 @@ margin-top: 2rem;
     .employment-container{
     display: grid;
     grid-template-columns: 1fr 1fr ;
+    
 }
-
+.employment-title h1{
+    font-size: 4rem;
+}
+.employment-title h2{
+    font-size: 2rem;
+}
 }
 @media screen and (max-width:770px){
     .employment-container{

@@ -13,8 +13,22 @@
     font-size: 10rem;
     text-align: center;
     margin-top: 15rem;
+    padding: 2rem;
 }
-
+.rgb{
+    background-image: radial-gradient(var(--STUPID) 0%, var(--greenBlue) 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+.rgb span{
+    background-image: radial-gradient(red 0%, #634646 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+}
 /* Navbar */
 .Navbar {
     background-color: var(--Charcoal);
@@ -101,7 +115,6 @@
 
 .sliding-image:hover {
     transition: all ease .25s;
-    filter: contrast(100);
     scale: 1.25;
 
 }
@@ -178,6 +191,14 @@ text-align: center;
         -ms-flex: 100%;
         flex: 100%;
         max-width: 100%;
+    }
+    .Not-needed {
+        font-size: 5rem;
+        margin-top: 7.5rem;
+    }
+    .rgb{
+scale: .75;
+padding: 2rem;
     }
 }
 @media screen and (max-width:1150px){
